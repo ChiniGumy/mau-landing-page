@@ -1,9 +1,13 @@
+import Hero from "../screens/Hero";
+import Jobs from "../screens/Jobs"
+
 function App() {
-  return (
-    <>
-      <h1 className="">olasolas</h1>
-    </>
-  )
+    return (
+        <>
+            <Hero/>
+            <Jobs/>
+        </>
+    );
 }
 
-export default App
+export default App;
