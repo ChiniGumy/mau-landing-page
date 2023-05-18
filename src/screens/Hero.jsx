@@ -1,12 +1,12 @@
 import videoBg from '../../public/assets/videos/car-follow.mp4'
-import instagramIcon from '../../public/assets/icons/instagram.svg'
-import whatsappIcon from '../../public/assets/icons/whatsapp.svg'
-import youtubeIcon from '../../public/assets/icons/youtube.svg'
-import twitterIcon from '../../public/assets/icons/twitter.svg'
+import instagramIcon from '/assets/icons/instagram.svg'
+import whatsappIcon from '/assets/icons/whatsapp.svg'
+import youtubeIcon from '/assets/icons/youtube.svg'
+import twitterIcon from '/assets/icons/twitter.svg'
 
 function Hero() {
   return (
-    <div className='h-screen flex justify-center items-center'>
+    <div id='Hero' className='h-screen flex justify-center items-center '>
         <video className='w-full h-screen object-cover brightness-[15%] fixed z-[-99]' src={videoBg} autoPlay loop muted/>
         <div className='flex flex-col justify-between items-center h-[30%]'>
             
