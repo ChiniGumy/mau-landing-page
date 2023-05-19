@@ -13,9 +13,9 @@ import quad from '/assets/images/quad.webp'
 function Jobs() {
     return (
         <div id='Jobs' className=" bg-gray-bg items-center h-auto w-full max-sm:p-0 px-36 py-24 max-sm:py-12">
+            <Title text="Proyectos"/>
             <div className="flex justify-center align-center">
                 <div className="parent p-6">
-            <Title text="Jobs"/>
                     <img src={bridge} class="div1 w-full h-full object-cover max-sm:my-2" />
                     <img src={bmx} class="div2 w-full h-full object-cover max-sm:my-2" />
                     <img src={quad} class="div3 w-full h-full object-cover max-sm:my-2" />

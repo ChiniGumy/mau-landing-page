@@ -1,4 +1,4 @@
-import videoBg from '../../public/assets/videos/car-follow.mp4'
+import videoBg from '/assets/videos/car-follow.mp4'
 import instagramIcon from '/assets/icons/instagram.svg'
 import whatsappIcon from '/assets/icons/whatsapp.svg'
 import youtubeIcon from '/assets/icons/youtube.svg'
@@ -7,7 +7,7 @@ import twitterIcon from '/assets/icons/twitter.svg'
 function Hero() {
   return (
     <div id='Hero' className='h-screen flex justify-center items-center '>
-        <video className='w-full h-screen object-cover brightness-[15%] fixed z-[-99]' src={videoBg} autoPlay loop muted/>
+        <video className='w-full h-screen object-cover brightness-[15%] fixed z-[-99]' src={videoBg} autoPlay loop muted playsinline />
         <div className='flex flex-col justify-between items-center h-[30%]'>
             
             <div className='flex flex-col justify-center items-center'>

@@ -8,8 +8,8 @@ function Navbar() {
 
         <div className="mr-16 max-sm:mr-0 max-sm:flex max-sm:items-center text-center max-sm:justify-center max-sm:w-full">
             <a href='#Hero'className="text-white-titles mx-6 text-lg">Home</a>
-            <a href='#Jobs'className="text-white-titles mx-6 text-lg">Jobs</a>
-            <a href='#Biography'className="text-white-titles mx-6 text-lg">Me</a>
+            <a href='#Jobs'className="text-white-titles mx-6 text-lg">Trabajos</a>
+            <a href='#Biography'className="text-white-titles mx-6 text-lg">Yo</a>
             <a href='#Packs'className="text-white-titles mx-6 text-lg">Packs</a>
         </div>
     </nav>

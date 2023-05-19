@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 function Pack() {
     return (
         <div className="mt-12 border-2 border-gray-strokes flex w-[65%] p-6 justify-between max-sm:flex-col max-sm:h-auto max-sm:p-6 max-sm:w-full max-sm:items-center">
@@ -22,7 +24,7 @@ function Pack() {
                     </p>
                 </div>
                 <div className="flex justify-between max-sm:mt-6 max-sm:flex-col-reverse max-sm:items-center">
-                    <div className="max-sm:mb-4 max-sm:w-[80%] max-sm:flex max-sm:items-center max-sm:justify-center p-2 px-8 bg-gray-button-body border border-gray-strokes text-white-titles">Ver mas</div>
+                    <Button className='max-sm:mb-4 max-sm:w-[80%] max-sm:flex max-sm:items-center max-sm:justify-center' />
                     <span className="max-sm:mb-4 text-2xl font-bold text-white-titles">$9.99</span>
                 </div>
             </div>
